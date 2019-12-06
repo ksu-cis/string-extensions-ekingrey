@@ -32,5 +32,10 @@ namespace ExtensionMethods
             return s.Split(new char[] { ' ', '.', '\n', '\t' }, StringSplitOptions.RemoveEmptyEntries).Length;
         }
 
+        public static string Smurf(this string s, string toReplace)
+        {
+            return s.Replace(toReplace, "Smurf");
+        }
+
     }
 }

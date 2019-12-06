@@ -39,7 +39,7 @@ namespace StringExtensions
 
             Console.WriteLine(writings[5].ToCamelCase());
 
-            
+            Console.WriteLine(writings[6].Smurf("our"));
         }
     }
 }
